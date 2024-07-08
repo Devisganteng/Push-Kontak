@@ -1,7 +1,7 @@
 const fs = require("fs");
 const chalk = require("chalk");
 
-global.owner = ["6285742632270"];
+global.owner = ["6289668173901"];
 global.author = "RezaDevv";
 global.packname = "Push-Kontak";
 global.sessionName = "Bot-Session";
@@ -23,4 +23,8 @@ fs.watchFile(file, () => {
   console.log(chalk.redBright(`Update ${__filename}`));
   delete require.cache[file];
   require(file);
-});
+});global.owner = ["6289668173901"];
+global.author = "RezaDevv";
+global.packname = "Push-Kontak";
+global.sessionName = "Bot-Session";
+global.versionbot = "1.2.0";
